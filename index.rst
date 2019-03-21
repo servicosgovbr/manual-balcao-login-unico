@@ -3,18 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Manual do Balcão do Login Único's documentation!
-===========================================================
+Manual do Balcão do Login Único
+===============================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Conceito , Pápeis e Solicitação
 
+   _conceitos/conceitos
+   _conceitos/papeiseatribuicoes
+   _conceitos/comosolicitar
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Módulo Gestor para Balcão (Ministério da Economia)
 
-Indices and tables
-==================
+   _modulogestor/cadastrousuariosgestores
+   _modulogestor/cadastroorgao
+   _modulogestor/cadastrobalconistascadastradores
+   _modulogestor/cadastrodocumento
+   _modulogestor/gestaoenumeracao
+   _modulogestor/gestaogrupodocumentosolicitado
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :caption: Módulo Balcão (Órgãos)
+   
+   _modulobalcao/cadastrobalconista
+   _modulobalcao/aquisicaoselobalcao

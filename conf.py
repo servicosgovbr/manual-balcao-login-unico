@@ -88,6 +88,7 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_extra_path = ['_arquivos']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -130,7 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ManualdoBalcodoLoginnico.tex', u'Manual do Balcão do Login Único Documentation',
+    (master_doc, 'ManualdoBalcodoLoginnico.tex', u'Manual do Balcão do Login Único',
      u'CGPSPD', 'manual'),
 ]
 
@@ -140,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'manualdobalcodologinnico', u'Manual do Balcão do Login Único Documentation',
+    (master_doc, 'manualdobalcodologinnico', u'Manual do Balcão do Login Único',
      [author], 1)
 ]
 
@@ -151,7 +152,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ManualdoBalcodoLoginnico', u'Manual do Balcão do Login Único Documentation',
+    (master_doc, 'ManualdoBalcodoLoginnico', u'Manual do Balcão do Login Único',
      author, 'ManualdoBalcodoLoginnico', 'One line description of project.',
      'Miscellaneous'),
 ]
