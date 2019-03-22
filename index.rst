@@ -8,7 +8,7 @@ Manual do Balcão do Login Único
 
 .. toctree::
    :maxdepth: 2
-   :caption: Conceito , Pápeis e Solicitação
+   :caption: Conceito, Pápeis e Solicitação
 
    _conceitos/conceitos
    _conceitos/papeiseatribuicoes
