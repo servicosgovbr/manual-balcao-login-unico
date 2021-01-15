@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Manual do Balcão do Login Único'
+project = u'Manual da APi de Pré-Cadastro do Login Único'
 copyright = u'2019, CGPSPD'
 author = u'CGPSPD'
 
@@ -104,7 +104,7 @@ html_extra_path = ['_arquivos']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ManualdoBalcodoLoginnicodoc'
+htmlhelp_basename = 'ManualdaAPIPRECADASTROdoLoginnicodoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -131,7 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ManualdoBalcodoLoginnico.tex', u'Manual do Balcão do Login Único',
+    (master_doc, 'ManualdaAPIPRECADASTROdoLoginnico.tex', u'Manual da API de Pré-Cadastro do Login Único',
      u'CGPSPD', 'manual'),
 ]
 
@@ -141,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'manualdobalcodologinnico', u'Manual do Balcão do Login Único',
+    (master_doc, 'manualdaapiprecadastrodologinnico', u'Manual da API de Pré-Cadastro do Login Único',
      [author], 1)
 ]
 
@@ -152,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ManualdoBalcodoLoginnico', u'Manual do Balcão do Login Único',
-     author, 'ManualdoBalcodoLoginnico', 'One line description of project.',
+    (master_doc, 'ManualdaAPIPRECADASTROdoLoginnico', u'Manual da API de Pré-Cadastro do Login Único',
+     author, 'ManualdaAPIPRECADASTROdoLoginnico', 'One line description of project.',
      'Miscellaneous'),
 ]
 
