@@ -16,7 +16,7 @@ Parâmetros do Header para requisição Post https://sso.staging.acesso.gov.br/t
 **Variavél**  	   **Descrição**
 -----------------  ----------------------------------------------------------------------
 **Content-Type**   Tipo do conteúdo da requisição que está sendo enviada. O padrão será **application/x-www-form-urlencoded**
-**Authorization**  Palavra **Basic** e informação codificada em *Base64*, no seguinte formato: CLIENT_ID:CLIENT_SECRET (senha de acesso do serviço consumidor)(utilizar `codificador para Base64`_ |site externo|  para gerar codificação). A palavra Basic deve está antes da informação. 
+**Authorization**  Palavra **Basic** e informação codificada em *Base64*, no seguinte formato: CLIENT_ID:CLIENT_SECRET (senha de acesso do serviço consumidor)(utilizar `codificador para Base64`_ para gerar codificação). A palavra Basic deve está antes da informação. 
 =================  ======================================================================
 	
 Exemplo de *header*:
@@ -120,6 +120,5 @@ Os acessos aos serviços do Login Único ocorrem por meio de chamadas de URLs e 
 	"descricao": "(Descrição detalhada do erro ocorrido. )"
   }
 
-.. |site externo| image:: _images/site-ext.gif
 .. _`codificador para Base64`: https://www.base64decode.org/
 .. _`Exemplos de Integração`: exemplointegracao.html
